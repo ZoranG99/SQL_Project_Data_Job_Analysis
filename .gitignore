@@ -1,0 +1,14 @@
+advanced_SQL/1_Manipulate_Tables.sql
+advanced_SQL/2_Date_Functions.sql
+advanced_SQL/3_practice_problem_6.sql
+advanced_SQL/4_cases.sql
+advanced_SQL/5_subqueries_CTE.sql
+advanced_SQL/6_problem_7.sql
+advanced_SQL/7_UNION_Operators.sql
+advanced_SQL/8_problem_8.sql
+.vscode/settings.json
+csv_files/.DS_Store
+csv_files/company_dim.csv
+csv_files/job_postings_fact.csv
+csv_files/skills_dim.csv
+csv_files/skills_job_dim.csv
