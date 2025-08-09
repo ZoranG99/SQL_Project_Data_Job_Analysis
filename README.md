@@ -1,4 +1,6 @@
-# Table of Contents
+# SQL Insights: 2023 Remote Data Analyst Job Market
+
+## Table of Contents
 1. [Introduction](#introduction)
 2. [Background](#background)
 3. [Key Questions](#key-questions)
@@ -7,12 +9,12 @@
 6. [What I Learned](#what-i-learned)
 7. [Conclusions](#conclusions)
 
-# Introduction 
+## Introduction 
 The data job market is evolving fast. This project dives into 2023’s remote Data Analyst job landscape to uncover which skills pay the most, which are most in demand, and where salary and demand intersect — giving job seekers a competitive edge.
 
 Want to see the SQL queries? Find them here: [project_SQL folder](/project_SQL/)
 
-# Background
+## Background
 Motivated by the goal of navigating the data analyst job market more efficiently, this project aims to identify the highest-paying and most in-demand skills, helping others streamline their search for the best opportunities.
 
 The dataset includes valuable insights on job titles, salaries, locations, and key skills.
@@ -21,18 +23,18 @@ The dataset includes valuable insights on job titles, salaries, locations, and k
 ### The questions I wanted to answer through my SQL queries were:
 1. What are the top-paying data analyst jobs?
 2. What skills are required for these top-paying jobs?
-3. What skills are most in demand for data analysts?
+3. What skills are most in-demand for data analysts?
 4. Which skills are associated with higher salaries?
 5. What are the most optimal skills to learn?
 
-# Tools I Used
+## Tools I Used
 To explore the data analyst job market in depth, I relied on several essential tools:
 - **SQL** – The backbone of the analysis, used to query the database and uncover key insights.
 - **PostgreSQL** – The database management system chosen for handling the job posting data.
 - **Visual Studio Code** – My preferred environment for managing the database and running SQL queries.
 - **Git & GitHub** – Crucial for version control, sharing SQL scripts and analysis, and keeping the project organized.
 
-# The Analysis
+## The Analysis
 Each query in this project was designed to explore a specific aspect of the data analyst job market. Here’s how I approached each question:
 
 ### 1. Top-Paying Data Analyst Jobs
@@ -192,16 +194,16 @@ LIMIT 25;
 
 | skills | avg_salary |
 | :--- | :--- |
-| pyspark | $208,172 |
-| bitbucket | $189,155 |
-| couchbase | $160,515 |
-| watson | $160,515 |
-| datarobot | $155,486 |
-| gitlab | $154,500 |
-| swift | $153,750 |
-| jupyter | $152,777 |
-| pandas | $151,821 |
-| elasticsearch | $145,000 |
+| PySpark | $208,172 |
+| Bitbucket | $189,155 |
+| Couchbase | $160,515 |
+| Watson | $160,515 |
+| DataRobot | $155,486 |
+| GitLab | $154,500 |
+| Swift | $153,750 |
+| Jupyter | $152,777 |
+| Pandas | $151,821 |
+| Elasticsearch | $145,000 |
 
 *Table of the Top 10 highest-paying skills for remote Data Analyst roles in 2023.*
 
@@ -262,7 +264,7 @@ LIMIT 25;
 - **Cloud and database expertise boosts pay** – Skills like Snowflake ($112,948), Azure ($111,225), AWS ($108,317), and Oracle ($104,534) consistently command above-average salaries, reflecting the industry’s move toward cloud-based analytics solutions.
 - **Specialized programming & big data tools add value** – Go ($115,320), Hadoop ($113,193), and JavaScript ($97,587), while less common, offer strong earning potential when paired with core data skills, making them strategic additions for career growth.
 
-# What I Learned
+## What I Learned
 This project significantly expanded my SQL expertise and sharpened my analytical mindset, but also challenged me to think like a hiring manager looking for data-driven insights.
 - **Advanced query building** – Gained proficiency in crafting complex SQL queries, joining multiple tables, and using CTEs (`WITH` clauses) for cleaner, more modular code.
 - **Data aggregation & summarization** – Became adept at using `GROUP BY`, `COUNT()`, `AVG()`, and other aggregate functions to distill large datasets into actionable findings.
@@ -272,11 +274,11 @@ This project significantly expanded my SQL expertise and sharpened my analytical
 - **Version control discipline** – Improved my use of Git & GitHub for tracking changes, organizing queries, and collaborating in a reproducible way.
 
 
-# Conclusions
+## Conclusions
 ### Insights from the Analysis
 - **Top-paying remote roles** – Salaries range widely, with the highest reaching $650,000, showing the strong earning potential for experienced data analysts.
 - **Skills for top-paying jobs** – Advanced proficiency in SQL is a recurring requirement, making it a critical skill for securing high-compensation positions.
-- **Most in-demand skills** – SQL also tops the list in demand, cementing its status as essential for job seekers.
+- **Most in-demand skills** – SQL also tops the list in-demand, cementing its status as essential for job seekers.
 - **Skills linked to higher salaries** – Niche and specialized skills, such as SVN and Solidity, are associated with some of the highest average salaries, indicating a premium for rare expertise.
 - **Optimal skills for market value** – SQL combines high demand with a competitive average salary, making it one of the most strategic skills to learn for maximizing career opportunities.
 
